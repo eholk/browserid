@@ -141,8 +141,9 @@
     //    - https://developers.google.com/chrome/mobile/docs/user-agent
     // Windows Phone
     //    - http://stackoverflow.com/questions/11381673/javascript-solution-to-detect-mobile-browser
-    var needsPopupFix = userAgent.match(/CriOS/) ||
-                        userAgent.match(/Windows Phone/);
+    //var needsPopupFix = userAgent.match(/CriOS/) ||
+    //                    userAgent.match(/Windows Phone/);
+    var needsPopupFix = true;
 
     var REQUIRES_WATCH = "WATCH_NEEDED";
     var WINDOW_NAME = "__persona_dialog";
